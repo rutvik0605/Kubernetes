@@ -3,9 +3,9 @@ apiVersion: apps/v1
 kind: ReplicaSet
 
 metadata:
-  name: replica-set
+  name: svc
   labels:
-    app: replica-set
+    app: svcapp
 
 spec:
   replicas: 5
